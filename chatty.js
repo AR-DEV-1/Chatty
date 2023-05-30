@@ -1,3 +1,4 @@
+function myFunction() {
 const userData = new Map();
 const chatData = new Map();
 const scanner = require('readline-sync');
@@ -76,5 +77,6 @@ while (true) {
                 console.log("Invalid choice!");
                 break;
         }
-    }
+     }
+  }
 }
